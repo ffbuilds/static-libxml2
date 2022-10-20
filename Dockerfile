@@ -1,6 +1,6 @@
 # syntax=docker/dockerfile:1
 
-# bump: libxml2 /LIBXML2_VERSION=([\d.]+)/ https://gitlab.gnome.org/GNOME/libxml2.git|*
+# bump: libxml2 /LIBXML2_VERSION=([\d.]+)/ https://gitlab.gnome.org/GNOME/libxml2.git|^2
 # bump: libxml2 after ./hashupdate Dockerfile LIBXML2 $LATEST
 # bump: libxml2 link "ChangeLog" https://gitlab.gnome.org/GNOME/libxml2/-/blob/master/NEWS
 ARG LIBXML2_VERSION=2.10.3
