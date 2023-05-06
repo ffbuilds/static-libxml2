@@ -3,9 +3,9 @@
 # bump: libxml2 /LIBXML2_VERSION=([\d.]+)/ https://gitlab.gnome.org/GNOME/libxml2.git|^2
 # bump: libxml2 after ./hashupdate Dockerfile LIBXML2 $LATEST
 # bump: libxml2 link "ChangeLog" https://gitlab.gnome.org/GNOME/libxml2/-/blob/master/NEWS
-ARG LIBXML2_VERSION=2.10.3
+ARG LIBXML2_VERSION=2.11.2
 ARG LIBXML2_URL="https://gitlab.gnome.org/GNOME/libxml2/-/archive/v${LIBXML2_VERSION}/libxml2-v${LIBXML2_VERSION}.tar.bz2"
-ARG LIBXML2_SHA256=302bbb86400b8505bebfbf7b3d1986e9aa05073198979f258eed4be481ff5f83
+ARG LIBXML2_SHA256=8d9a6756739cc51e2e79c97801b17ca3c17926bd4e75800308f8d0a99995269e
 
 # Must be specified
 ARG ALPINE_VERSION
